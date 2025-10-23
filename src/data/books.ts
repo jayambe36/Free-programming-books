@@ -508,6 +508,23 @@ export const books: Book[] = [
     tags: ["C", "Modern", "Comprehensive"]
   },
 
+
+  // Typescript Programming
+  {
+    id: "t-1",
+    title: "TYPESCRIPT JUMPSTART BY ANGULAR UNIVERSITY",
+    author: "Vasco",
+    category: "Typescript Programming",
+    language: "Typescript",
+    pages: 44,
+    year: 2021,
+    description: "Focuses on how TypeScript supports better code structure, type safety, and developer productivity in Angular apps",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/C",
+    level: "All Levels",
+    tags: ["C", "Classic", "Fundamentals", "language", "script", "development", "Beginner-Friendly"],
+    featured: true
+  },
+
   // C++ Programming
   {
     id: "cpp-1",
@@ -777,6 +794,7 @@ export const books: Book[] = [
 export const categories = [
   "Python Programming",
   "Java Programming",
+  "Typescript Programming",  // newly added category
   "Web Development",
   "Data Structure & Algorithm",
   "Database Management",
@@ -799,6 +817,7 @@ export const languages = [
   "Python",
   "Java",
   "JavaScript",
+  "Typescript",  // newly added programming language
   "C",
   "C++",
   "Kotlin",
