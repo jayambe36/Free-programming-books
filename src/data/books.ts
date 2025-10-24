@@ -422,6 +422,26 @@ export const books: Book[] = [
   },
 
 
+
+
+ // Deep Learning
+  {
+    id: "dl-1",
+    title: "Understanding DeepLearning",
+    author: "Simon J.D. Prince",
+    category: "Deep Learning",
+    language: "Python",
+    pages: 541,
+    year: 2023,
+    description: "Comprehensive and intuitive introduction to modern deep learning, combining mathematical foundations, neural network architectures, and practical coding exercises in Jupyter/Colab notebooks",
+    downloadLink: "https://github.com/avinash201199/Free-programming-books/tree/main/Deep%20Learning",
+    level: "Intermediate",
+    tags: ["Machine Learning", "Python", "TensorFlow", "Scikit-Learn"],
+    featured: true
+  },
+ 
+
+
   // AI Books
   {
     id: "ai-1",
@@ -801,6 +821,7 @@ export const categories = [
   "Machine Learning",
   "Artificial Intelligence",
   "Data Science",
+  "Deep learning",
   "C Programming",
   "C++ Programming",
   "Android Development",
